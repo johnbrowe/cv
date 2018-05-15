@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 80px auto 60px; }
+        
+        #contact-info { display: flex; flex-direction: row-reverse; margin-bottom: 20px; }
+        #contact-info div:first-of-type { width: 35%; margin-left: 10px; }
+        #contact-info div:last-of-type { width: 65%; }
+        #contact p{ text-align: right; }
+        #contact p { float: right;}
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; }
+        #objective p { font-family: Georgia, Serif; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+
+        @media print { 
+            body { 
+                margin: 80px 90px 0px 90px;
+                font-size: 13px;
+                line-height: 19.5px;
+            }
+            h1 {
+                font-size: 29.25px;
+            }
+            h2 {
+                font-size: 19.5px;
+            }
+            #page-wrap {  
+                margin: 0px;
+                width: 100%; 
+            }
+            #contact-info { margin-bottom: 0px; }
+
+            dt {
+                font-size: 16px;
+                width: 16%;
+            }
+            dd { width: 75%; float: right; }
+            ul { margin: 0 0 24px 17px; }
+        }
+     </style>
+
+</head>
+<body>
+    <div id="page-wrap">
+
+        <h1 class="fn">John Høj Andreassen</h1>    
+        <div id="contact-info" class="vcard">            
+            <div id="contact">    
+                <p>
+                    Tlf: <span class="tel">+45 53999959</span><br />
+                    <a class="email" href="mailto:john.andreassen83@gmail.com">john.andreassen83@gmail.com</a>
+                   <!-- Sosial:<a href="https://www.linkedin.com/in/johnhojandreassen/"> linkedin.com/in/johnhojandreassen/</a>-->
+                </p>
+            </div>
+            <div id="objective">
+                <p>
+                    Hart arbeiðandi backend- og frontend mennari við eyga fyri lættlesandi og snøggum loysnum. Lættur at umgangast og havi ein brennandi áhuga fyri effektivum software- og design loysnum. 
+                    Havi 3+ ára royndir sum mennari á arbeiðismarknaðinum og havi røkt freelance uppgávur síðani 2012. 
+                </p>
+            </div>
+        </div>
+
+
+        <div class="clear"></div>
+        
+        <dl>    
+            <dd class="clear"></dd>
+            
+            <dt>Royndir</dt>
+            <dd>
+                <h2>Obviux (Ørsted dóttirfelag)<span>Mennari, 2017 - 2018</span></h2>
+                <ul>
+                    <li>Ment eitt privat kunda- og fakturering system fyri Ørsted</li>
+                    <li>Funnið loysnir saman við kundatænastuni</li>
+                    <li>Høvuðsábyrgd fyri frontend</li>
+                    <li>Scrum verkætlan</li>
+                    <li>PHP, MVC, JavaScript, CSS, HTML, GIT, Unit test, OOP</li>
+                </ul>
+                 
+                <h2>Fitness World <span>Mennari, 2015 - 2017</span></h2>
+                <ul>
+                    <li>Ment eitt nýtt custom CMS og nýggja heimasíðu</li>
+                    <li>Tætt samarbeiði við ymiskar "product owners"</li>
+                    <li>Høvuðsábyrgd fyri frontend</li>
+                    <li>Kanban verkætlan</li>
+                    <li>PHP, MVC, JavaScript, CSS, HTML, GIT, Unit test, OOP</li>                        
+                </ul> 
+
+                <h2>Freelance <span>Mennari, 2012 - 2018</span></h2>
+                <ul>
+                    <li>Ment einfalda nethandilsloysn fyri Haps, 2018</li>
+                    <li>Ment heimasíðu fyri Framskák, 2016 </li>
+                    <li>Ment nýggja heimasíðu fyri Leiðsluhúsið, 2015</li> 
+                    <li>Ment tilboðsloysn fyri Framskák, 2015 </li>
+                    <li>Ment nýggja heimasíðu fyri SMJ, 2014</li>
+                    <li>Ment eina responsiva loysn fyri Videofundir, 2014</li>
+                    <li>Ment nýggja heimasíðu fyri NB Boliger, 2014 </li>
+                    <li>Ment nethandil fyri Streetboard.dk, 2014</li>
+                    <li>Ment eina responsiva loysn fyri MeMover, 2013</li>
+                    <li>Ment nýggja heimasíðu fyri Norðfra, 2012</li>
+                </ul>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Útbúgvingar</dt>
+            <dd>
+                <h2>PBA Web Development <span>KEA, 2013-2015</span></h2>
+                <ul>
+                    <li>MySQL, PHP, Java og C# menning.</li>
+                </ul>
+                <h2>AP Multimedia Design and Communication <span>KEA, 2011-2013</span></h2>
+                <ul>
+                    <li>Design, CMS, backend og frontend menning.</li>
+                </ul>
+                <h2>AP Markedsføringsøkonom <span>EAM, 2006-2008</span></h2>
+                <ul>
+                    <li>Lærdi at vera service- og kundafokuseraður.</li>
+                </ul>
+            </dd>
+
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+    
+</body>
+</html>
+
